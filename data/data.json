@@ -1,4 +1,5 @@
 {
+    "profile_pic": "views/imgs/profile_pic",
     "projects": [
         {
             "id": 0,
@@ -11,11 +12,11 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/random_quote_generator/",
             "github_link": "https://github.com/Mitch-Tyrer/random_quote_generator",
+            "gallery_image": "/static/imgs/gallery/quotes_thumbnail.PNG",
             "image_urls": [
-                "views/imgs/phrase_1.PNG",
-                "views/imgs/phrase_2.PNG",
-                "views/imgs/phrase_3.PNG",
-                "views/imgs/phrase_4.PNG"
+                "/static/imgs/quotes_1.PNG",
+                "/static/imgs/quotes_2.PNG",
+                "/static/imgs/quotes_3.PNG"
             ]
         },
 
@@ -30,9 +31,10 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/pagination_project/",
             "github_link": "https://github.com/Mitch-Tyrer/pagination_project",
+            "gallery_image": "/static/imgs/gallery/pages_thumbnail.PNG",
             "image_urls": [
-                "views/imgs/pages_1.PNG",
-                "views/imgs/pages_2.PNG"
+                "/static/imgs/pages_1.PNG",
+                "/static/imgs/pages_2.PNG"
             ]
         },
 
@@ -47,9 +49,11 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/interactive_form/",
             "github_link": "https://github.com/Mitch-Tyrer/interactive_form",
+            
+            "gallery_image": "/static/imgs/gallery/form_thumbnail.PNG",
             "image_urls": [
-                "views/imgs/form_1.PNG",
-                "views/imgs/form_2.PNG"
+                "/static/imgs/form_1.PNG",
+                "/static/imgs/form_2.PNG"
             ]
         },
 
@@ -64,11 +68,12 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/phrase_hunter/",
             "github_link": "https://github.com/Mitch-Tyrer/phrase_hunter",
+            "gallery_image": "/static/imgs/gallery/phrase_thumbnail.PNG",
             "image_urls": [
-                "views/imgs/phrase_1.PNG",
-                "views/imgs/phrase_2.PNG",
-                "views/imgs/phrase_3.PNG",
-                "views/imgs/phrase_4.PNG"
+                "/static/imgs/phrase_1.PNG",
+                "/static/imgs/phrase_2.PNG",
+                "/static/imgs/phrase_3.PNG",
+                "/static/imgs/phrase_4.PNG"
             ]
         },
 
@@ -84,10 +89,11 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/api_project/",
             "github_link": "https://github.com/Mitch-Tyrer/api_project",
+            "gallery_image": "/static/imgs/gallery/api_thumbnail.PNG",
             "image_urls": [
-                "views/imgs/api_1.PNG",
-                "views/imgs/api_2.PNG",
-                "views/imgs/api_3.PNG"
+                "/static/imgs/api_1.PNG",
+                "/static/imgs/api_2.PNG",
+                "/static/imgs/api_3.PNG"
             ]
         }
     ]
