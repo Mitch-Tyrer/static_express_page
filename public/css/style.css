@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,p{
     color: #666;
   }
 
+  p.error {
+    font-size: 10px;
+  }
+
 .round{
   border-radius: 5px;
 }
