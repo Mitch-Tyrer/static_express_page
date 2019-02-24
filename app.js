@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-const data = require('./data/data.json');
-const projects = data.projects
+
+const routes = require('./routes')
 
 
 const app = express();
@@ -13,22 +13,8 @@ app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
-app.get('/', (req, res) => {
-    res.render('index', {projects});
-}); // end homepage get
+app.use(routes);
 
-app.get('/about', (req, res) => {
-    res.render('about');
-}); // end about page get
-
-app.get('/projects/:id', (req, res) => {
-    const id = req.params.id
-    if(id < projects.length){
-    res.render('project', {id, projects});
-    } else {
-        res.redirect('/oops');
-    }
-}); // end projects get route
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');

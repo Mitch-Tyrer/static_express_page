@@ -1,6 +1,11 @@
+body{
+  background: #383838;
+}
+
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: #727271
 }
 
   h5{
@@ -18,8 +23,9 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
+    font-family: 'Rokkitt', serif;
     font-size: 15px;
-    color: #666;
+    color: #727271;
   }
 
   p.error {
@@ -31,7 +37,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #727271;
 }
 
 .button{
@@ -39,7 +45,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #ef6817;
 }
 
 a{
@@ -47,14 +53,14 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: #ef6817;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #ef6817;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -62,20 +68,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #21201f;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #727271;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #727271;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -83,7 +89,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #ef6817;
   }
 
 .portfolio-breadcrumb{

@@ -42,3 +42,10 @@
     - add _blank to live links so they open in a new window
 
 - make sure css is connected to the templates properly
+
+
+######### STYLE CHANGES #######
+
+Updated color scheme and fonts.
+
+TODO: Add a Landing page with Profile Photo as BG and a short intro and link to index.
