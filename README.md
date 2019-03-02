@@ -48,4 +48,7 @@
 
 Updated color scheme and fonts.
 
-TODO: Add a Landing page with Profile Photo as BG and a short intro and link to index.
+### Things to add
+- landing page
+- direct link to a resume with download
+                
