@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
 const routes = require('./routes')
 
@@ -37,3 +37,4 @@ app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 }); 
+*/
