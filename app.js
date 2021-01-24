@@ -31,7 +31,7 @@ app.use((err, req, res, next) => {
   });
 
  // listen for heroku server 
-app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
+app.listen(PORT, () => {console.log(`Listening on ${ PORT }`)});
 
 /* listen for localhost
 app.listen(3000, () => {
