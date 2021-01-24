@@ -12,9 +12,9 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/random_quote_generator/",
             "github_link": "https://github.com/Mitch-Tyrer/random_quote_generator",
-            "gallery_image": "/public/imgs/gallery/quotes_thumbnail.PNG",
+            "gallery_image": "/static/imgs/gallery/quotes_thumbnail.PNG",
             "image_urls": [
-                "/static/imgs/quotes_1.PNG",
+                "/static/imgs/gallery/quotes_thumbnail.PNG",
                 "/static/imgs/quotes_2.PNG",
                 "/static/imgs/quotes_3.PNG"
             ]
