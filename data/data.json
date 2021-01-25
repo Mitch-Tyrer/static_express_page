@@ -110,11 +110,11 @@
             ],
             "live_link": "https://mitch-tyrer.github.io/React_Gallery/",
             "github_link": "https://github.com/Mitch-Tyrer/react_gallery",
-            "gallery_image": "/static/imgs/react_gallery_1.PNG",
+            "gallery_image": "/static/imgs/react_gallery_1.png",
             "image_urls": [
-                "/static/imgs/react_gallery_1.PNG",
-                "/static/imgs/react_gallery_2.PNG",
-                "/static/imgs/react_gallery_3.PNG"
+                "/static/imgs/react_gallery_1.png",
+                "/static/imgs/react_gallery_2.png",
+                "/static/imgs/react_gallery_3.png"
             ]
         }
     ]
