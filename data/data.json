@@ -116,6 +116,27 @@
                 "/static/imgs/react_gallery_2.png",
                 "/static/imgs/react_gallery_3.png"
             ]
+        },
+
+        {
+            "id": 6,
+            "project_name": "Library Manager",
+            "description": "A SQl based book search and management database for a library",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Express",
+                "SQL"
+            ],
+            "live_link": "https://lib-manager-treehouse.herokuapp.com/books/1",
+            "github_link": "https://github.com/Mitch-Tyrer/sql_library_manager",
+            "gallery_image": "/static/imgs/lib_manager_1.png",
+            "image_urls": [
+                "/static/imgs/lib_manager_1.png",
+                "/static/imgs/lib_manager_2.png",
+                "/static/imgs/lib_manager_3.png"
+            ]
         }
     ]
 }
